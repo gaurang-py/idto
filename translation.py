@@ -6,6 +6,4 @@ class Translation(object):
       #About text
       ABOUT = """
 <b>📝 Language:</b> Python 3
-<b>🧰 Framework:</b> Pyrogram
-<b>👨‍💻 Developer:</b> RIDER
-<b>🌐Source Code:</b> Press Me <a href='https://github.com/greymatter658/auto-forward-bot'> 🥰"""
+🥰"""
