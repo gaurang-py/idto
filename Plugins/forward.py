@@ -12,9 +12,9 @@ from config import Config
 async def forward(c, m):
     # Forwarding the messages to the channel
 
-    while True:
-       from_channel, to_channel = -1001779474259 , -1001513827997
-       if m.chat.id == from_channel):
-          await m.forward(to_channel, as_copy=True)
+    for id in Config.CHANNEL:
+       from_channel, to_channel = id.split(":")
+       if m.chat.id == int(from_channel):
+          await m.forward(int(to_channel), as_copy=True)
           print("Forwarded a message from", from_channel, "to", to_channel)
           asyncio.sleep(1)
