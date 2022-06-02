@@ -1,7 +1,7 @@
 import os
 
 class Config(object):
-      BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-      API_ID = int(os.environ.get("APP_ID", 12345))
-      API_HASH = os.environ.get("API_HASH")
-      CHANNEL = list(x for x in os.environ.get("CHANNEL_ID", "").replace("\n", " ").split(' '))
+      BOT_TOKEN = "1119746739:AAGMhvpUjXI4CzIfizRC--VXilxnkJlhaf8"
+      API_ID = int(12435439)
+      API_HASH = "8fba0f88315f829b034f79c5cbd2c3d4"
+      CHANNEL = [-1001779474259,-1001662975965]
