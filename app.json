@@ -8,8 +8,8 @@
   ],
   "logo": "https://telegra.ph/file/5b5dd216d70b29c80e25e.jpg",
   "success_url": "https://telegram.dog/GreyMatter_bots",
-  "website": "https://github.com/greymatter658/auto-forward-bot",
-  "repository": "https://github.com/GreyMatter658/Auto-Forward-Bot",
+  "website": "https://github.com/gaurang-py/Auto-Forward-Bot",
+  "repository": "https://github.com/gaurang-py/Auto-Forward-Bot",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
